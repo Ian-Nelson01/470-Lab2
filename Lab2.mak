@@ -4,10 +4,10 @@ RM = rm -f
 
 default: all
 
-all: lab2
+all: myLab2
 
-Lab2: lab2.c
-	$(CC) $(CFLAGS) -o lab2 lab2.c
+Lab2: myLab2.c
+	$(CC) $(CFLAGS) -o myLab2 myLab2.c
 
 clean veryclean:
-	$(RM) lab2
+	$(RM) myLab2
